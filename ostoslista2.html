@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tyyli.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hedelmasalaatti</title>
+</head>
+
+     
+<body>
+    
+    <section>
+        <h1>Ostoslista</h1>
+
+
+        <img src="kuva.jpg"/>
+
+
+        <h2>Hyvä ja halpa hedelmäsalaatti</h2>
+    
+        <p>Syötä tuotteet ja hinnat alle,
+           <br>
+            tarkista sitten vielä kallein ja edullisin tuote!
+        </p>
+
+        <p> 
+            hedelmä
+            <input id="tuote"/>
+            
+            hinta <input id="hinta" type="number"/>
+            <button id="nappi" type="button" onclick="addRow()">Lisää</button>
+        </p>
+        
+        <table> 
+            <tbody id="taulu"></tbody>
+        </table>
+
+    </section>
+
+        <br><br>
+
+    <section>
+
+        <button id="nappi" type="button" onclick="kallis()">Näytä kallein tuote</button> 
+            <div class="sivulle"> 
+                <div name="output" id="output"></div>
+            </div> 
+
+        <br><br>
+
+        <button id="nappi" type="button" onclick="halpa()">Näytä edullisin tuote</button>          
+            <div class="sivulle2">
+                <div name="output2" id="output2"></div>
+            </div>
+
+    </section>
+    
+    <script src="./toiminnot2.js">
+    </script>
+
+</body>
+</html>

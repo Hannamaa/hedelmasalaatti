@@ -1,0 +1,43 @@
+body {
+    background-color: #caebb2;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+   }
+
+h1 {
+    color: rgb(0, 128, 75);
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+  }
+
+h2 {
+    color: rgb(0, 128, 75);
+    font-size: 20px;
+    
+  }
+
+p {
+    color: rgb(0, 128, 75);
+    font-size: 16px;
+  }
+
+table {
+    color: rgb(0, 128, 75);
+    font-size: 16px;
+    width: 100%;
+}
+
+.sivulle {
+    color: rgb(226, 30, 30);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sivulle2 {
+    color: rgb(0, 128, 75);
+    font-size: 16px;
+    font-weight: bold;
+}
